@@ -1,3 +1,0 @@
-# BSQ
-
-LUKE I AM YOUR FATHER
