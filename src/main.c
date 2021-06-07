@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lde-alen <lde-alen@42abudhabi.ae>          +#+  +:+       +#+        */
+/*   By: kamin <kamin@42abudhabi.ae>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/05 00:06:20 by lde-alen          #+#    #+#             */
-/*   Updated: 2021/06/07 18:36:12 by lde-alen         ###   ########.fr       */
+/*   Updated: 2021/06/07 23:31:35 by kamin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/bsq.h"
+#include "ft_bsq.c"
+
 
 int		main(int ac, char **av)
 {
