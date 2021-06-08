@@ -1,27 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_map.c                                           :+:      :+:    :+:   */
+/*   ft_string_manipulation.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lde-alen <lde-alen@42abudhabi.ae>          +#+  +:+       +#+        */
+/*   By: kamin <kamin@42abudhabi.ae>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/07 04:28:12 by lde-alen          #+#    #+#             */
-/*   Updated: 2021/06/07 18:39:31 by lde-alen         ###   ########.fr       */
+/*   Created: 2021/06/07 23:10:15 by kamin             #+#    #+#             */
+/*   Updated: 2021/06/08 01:49:10 by kamin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/bsq.h"
-
-void	ft_print_map(char **map, int rows)
+char	*ft_strcat(char *dest, char *src)
 {
-	int	i;
+	char *charptr;
+	char *charptrsrc;
 
-	i = 0;
-	while (i < rows)
+	charptr = dest;
+	charptrsrc = src;
+	while (*charptr)
+		charptr++;
+	while (*charptrsrc)
 	{
-		ft_putstr(map[i]);
-		i++;
+		*charptr = *charptrsrc;
+		charptrsrc++;
+		charptr++;
 	}
+	*charptr = 0;
+	return (dest);
 }
-
-
