@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   bsq.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lde-alen <lde-alen@42abudhabi.ae>          +#+  +:+       +#+        */
+/*   By: kamin <kamin@42abudhabi.ae>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/05 00:07:46 by lde-alen          #+#    #+#             */
-/*   Updated: 2021/06/07 16:39:31 by lde-alen         ###   ########.fr       */
+/*   Updated: 2021/06/07 23:18:47 by kamin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,8 @@ void	ft_putstr(char *str);
 void	ft_fputstr(char *str);
 int		ft_bsq(char *file);
 void	ft_print_map(char **map, int rows);
+char	*ft_strcat(char *dest, char *src);
+char	**map_check(char *file);
 
 #endif
 

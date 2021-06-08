@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: lde-alen <lde-alen@42abudhabi.ae>          +#+  +:+       +#+         #
+#    By: kamin <kamin@42abudhabi.ae>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/05 00:04:56 by lde-alen          #+#    #+#              #
-#    Updated: 2021/06/07 04:28:37 by lde-alen         ###   ########.fr        #
+#    Updated: 2021/06/07 23:21:45 by kamin            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,9 @@ CC		=		gcc -o
 SRC		=		src/main.c		\
 				src/ft_prints.c	\
 				src/ft_bsq.c	\
-				src/ft_map.c
+				src/ft_map.c	\
+				src/map_check.c	\
+				src/ft_string_manipulation.c	\
 
 
 CFLAGS	+=		-Wall -Wextra -Werror
