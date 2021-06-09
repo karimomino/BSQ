@@ -6,7 +6,7 @@
 #    By: kamin <kamin@42abudhabi.ae>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/05 00:04:56 by lde-alen          #+#    #+#              #
-#    Updated: 2021/06/07 23:21:45 by kamin            ###   ########.fr        #
+#    Updated: 2021/06/09 07:41:48 by kamin            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,12 +14,14 @@ NAME	=		bsq
 
 CC		=		gcc -o
 
-SRC		=		src/main.c		\
-				src/ft_prints.c	\
-				src/ft_bsq.c	\
-				src/ft_map.c	\
-				src/map_check.c	\
+SRC		=		src/main.c						\
+				src/ft_prints.c					\
+				src/ft_bsq.c					\
 				src/ft_string_manipulation.c	\
+				src/ft_file.c					\
+				src/ft_map_print.c				\
+				src/ft_map_check.c
+
 
 
 CFLAGS	+=		-Wall -Wextra -Werror

@@ -1,28 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_map_print.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kamin <kamin@42abudhabi.ae>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/05 00:06:20 by lde-alen          #+#    #+#             */
-/*   Updated: 2021/06/09 08:51:28 by kamin            ###   ########.fr       */
+/*   Created: 2021/06/09 03:14:11 by kamin             #+#    #+#             */
+/*   Updated: 2021/06/09 05:28:40 by kamin            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/bsq.h"
-//#include "ft_bsq.c"
 
-
-int		main(int ac, char **av)
+void	ft_map_print(t_map_def map_def)
 {
-	int	i;
+	int i;
 
-	i = 1;
-	while (i < ac)
+	i = 0;
+	while (i < map_def.line_numbers - 1)
 	{
-		ft_bsq(av[i]);
+		ft_putstr(map_def.map[i]);
 		i++;
 	}
-	return (0);
 }
